@@ -1,7 +1,14 @@
 {
     "name": "YouTube Video Detector",
-    "version": "1.0",
+    "version": "1.1",
     "manifest_version": 2,
+    "author": "chrismichaud@shaw.ca", 
+    "icons": {
+        "16": "brain.png",
+        "32": "brain.png",
+        "48": "brain.png",
+        "128": "brain.png"
+      },
     "description": "Detects when a YouTube video is playing and prompts the user with a button on a popdown menu.",
     "browser_action": {
       "default_popup": "popup.html"
